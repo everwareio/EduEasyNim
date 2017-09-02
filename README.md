@@ -5,7 +5,8 @@ EduEasy is a simple tool that aids in the construction of large amounts of works
 Currently has generators for:
 
   1. Simple Quadratics, in the form x^2 + bx + c
-  2. Advanced Quadratics, in the from ax^2 + bx + c
+  2. Advanced Quadratics, in the form ax^2 + bx + c
+  3. Simple differentiation, in the form ax^b
 
 ### Building EduEasy
 Getting yourself a copy of EduEasy is as simple as using it, simply navigate into the directory and execute
