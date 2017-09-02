@@ -1,2 +1,9 @@
+### Avoid potential binary files ###
+# We do so by ignoring all files, then specifically
+# unignoring everything with an extension, and all directories
+*
+!*.*
+!*/
+
 ### Nim ###
 nimcache/
