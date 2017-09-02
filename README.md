@@ -7,6 +7,7 @@ Currently has generators for:
   1. Simple Quadratics, in the form x^2 + bx + c
   2. Advanced Quadratics, in the form ax^2 + bx + c
   3. Simple differentiation, in the form ax^b
+  4. Differentiation with a constant, in the form ax^b + c
 
 ### Building EduEasy
 Getting yourself a copy of EduEasy is as simple as using it, simply navigate into the directory and execute

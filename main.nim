@@ -6,6 +6,7 @@ import os, random
 import quadratics.monicquadratic
 import quadratics.nonmonicquadratic
 import differentiation.singletermdifferentiation
+import differentiation.constantdifferentiation
 
 # set the random number generator to something unique
 randomize()
@@ -14,3 +15,4 @@ randomize()
 echo monicquadratic.generator()
 echo nonmonicquadratic.generator()
 echo singletermdifferentiation.generator()
+echo constantdifferentiation.generator()
