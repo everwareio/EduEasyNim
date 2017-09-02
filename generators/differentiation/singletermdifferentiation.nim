@@ -1,8 +1,12 @@
 # import necessary libs; random, types and struils are generally required
 import random, types, strutils
 
-# define the process by which a question is generated, and the solution to
-# the question
+# Creates a monic quadratic in the form ax^b and generates solutions
+# in the same form
+# c -> the coefficient of x
+# i -> the index of x
+# q -> the question string (standard)
+# s -> the solution string (standard)
 proc generator*(): Question =
   var
     c: int
