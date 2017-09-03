@@ -26,5 +26,5 @@ Question type is the type of questions you want, these are currently set up as:
 ### Building EduEasy
 Getting yourself a copy of EduEasy is as simple as using it, simply navigate into the directory and execute
 ``` shell
-nim compile --path: ./generators main.nim -o EduEasy
+nim compile --path: ./generators -o: EduEasy main.nim
 ```
