@@ -13,6 +13,6 @@ proc generator*(): Question =
     s: string
   r[0] = random(20)
   r[1] = random(20)
-  q = "(x^2 + $1x + $2)" % [$(r[0]+r[1]), $(r[0]*r[1])]
+  q = "x^2 + $1x + $2" % [$(r[0]+r[1]), $(r[0]*r[1])]
   s = "(x + $1)(x + $2)" % [$r[0], $r[1]]
   result = (q, s)
